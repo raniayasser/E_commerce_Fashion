@@ -41,7 +41,7 @@ function darkMood(){
 // product slides
 
 const swiper = new Swiper('.swiper-container', {
-    loop: false,
+    loop: true,
     spaceBetween: 10,
     autoplay: {
         delay: 4000
@@ -261,7 +261,7 @@ const items = [{
 
 
 // render items 
-let parentBox = document.querySelector('.perant-card');
+let parentBox = document.getElementByClassName('.perant-card');
 let shopItems = "";
 function renderItems() {
     items.forEach(item => {
