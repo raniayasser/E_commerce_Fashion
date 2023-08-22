@@ -261,7 +261,7 @@ const items = [{
 
 
 // render items 
-let parentBox = document.getElementByClassName('.perant-card');
+let parentBox = document.querySelector('.perant-card');
 let shopItems = "";
 function renderItems() {
     items.forEach(item => {
